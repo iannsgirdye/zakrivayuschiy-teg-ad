@@ -16,5 +16,5 @@
   padding-block: var(--padding-block-body);
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: var(--gap-body);
 }
