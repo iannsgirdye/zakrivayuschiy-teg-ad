@@ -6,6 +6,7 @@
 
   --padding-block-body: 100px;
   --padding-block-header: 120px;
+  --padding-section-title: 5px 10px;
   --padding-section: 25px;
 
   --gap-body: 100px;
@@ -13,6 +14,7 @@
   --gap-main: 50px;
   --gap-section: 25px;
   --gap-section-text: 27px; 
+  --gap-section-buttons: 12px;
 
   --font-family: 'Inter Variable';
   --font-family-accent: 'Press Start 2P';
