@@ -1,5 +1,5 @@
 .header {
-  padding-block: 120px;
+  padding-block: var(--padding-block-header);
   display: flex;
   justify-content: center;
 }
@@ -7,16 +7,16 @@
 .header__title {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  font-family: 'Press Start 2P', sans-serif;
+  gap: var(--gap-header-text);
+  font-family: var(--font-family-accent), sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
 
 .header__title-main {
-  font-size: clamp(3.0625rem, 2.71rem + 1.50vw, 4.0625rem);
+  font-size: var(--font-size-header-title-main);
 }
 
 .header__title-description {
-  font-size: clamp(0.875rem, 0.68rem + 0.85vw, 1.4375rem);
+  font-size: var(--font-size-header-title-description);
 }
