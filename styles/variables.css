@@ -1,6 +1,9 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
+  --color-white: #fff;
+  --color-black: #000;
+
   --padding-block-body: 100px;
   --padding-block-header: 120px;
   --padding-section: 25px;
