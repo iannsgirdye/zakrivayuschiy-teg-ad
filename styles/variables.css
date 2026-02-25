@@ -23,4 +23,6 @@
   --font-size-header-title-main: clamp(3.0625rem, 2.71rem + 1.50vw, 4.0625rem);
   --font-size-header-title-description: clamp(0.875rem, 0.68rem + 0.85vw, 1.4375rem);
   --font-size-section-title: 1.125rem;
+
+  --border-width: 2px;
 }
