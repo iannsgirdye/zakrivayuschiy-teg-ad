@@ -1,0 +1,9 @@
+.button {
+  background-color: transparent;
+}
+
+.button:not(.button--icon) {
+  padding: var(--padding-button);
+  font-family: var(--font-family-accent);
+  font-size: var(--font-size-button);
+}
