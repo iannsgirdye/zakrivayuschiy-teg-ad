@@ -13,4 +13,8 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  padding-block: var(--padding-block-body);
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
