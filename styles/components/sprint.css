@@ -8,6 +8,28 @@
   font-size: var(--font-size-section-title);
 }
 
+.sprint__image-container {
+  position: relative;
+}
+
+.sprint__image-label {
+  position: absolute;
+  top: 25px;
+  right: 13px;
+  font-family: var(--font-family-accent);
+  font-size: var(--font-size-label);
+  opacity: 0.5;
+  text-shadow: 
+    0 1px 0 var(--color-white),
+    0 -1px 0 var(--color-white),
+    1px 0 0 var(--color-white),
+    -1px 0 0 var(--color-white),
+    1px -1px 0 var(--color-white),
+    -1px 1px 0 var(--color-white),
+    1px 1px 0 var(--color-white),
+    -1px -1px 0 var(--color-white);
+}
+
 .sprint__image {
   margin-inline: calc(-1 * var(--border-width));
 }
