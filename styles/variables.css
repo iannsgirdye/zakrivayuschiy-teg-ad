@@ -14,6 +14,9 @@
   --gap-section: 25px;
   --gap-section-text: 27px; 
 
+  --font-family: 'Inter Variable';
+  --font-family-accent: 'Press Start 2P';
+
   --font-size-header-title-main: clamp(3.0625rem, 2.71rem + 1.50vw, 4.0625rem);
   --font-size-header-title-description: clamp(0.875rem, 0.68rem + 0.85vw, 1.4375rem);
 }
