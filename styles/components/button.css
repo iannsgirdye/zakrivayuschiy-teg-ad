@@ -1,15 +1,16 @@
 .button {
   background-color: var(--color-white);
   border: var(--border);
-}
-
-.button:not(.like-icon) {
-  padding: var(--padding-button);
   font-family: var(--font-family-accent);
   font-size: var(--font-size-button);
 }
 
-.like-icon {
+.button {
+  padding: var(--padding-button);
+}
+
+.card__icon-button {
+  padding: 0;
   border: none;
 }
 
