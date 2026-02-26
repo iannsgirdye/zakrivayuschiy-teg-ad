@@ -7,9 +7,9 @@
   --inline-size-more-button-icon: 2em;
   --inline-size-dialog-icon: 39px;
 
-  --padding-block-body: 100px;
-  --padding-block-header: 120px;
-  --padding-card-title: 5px 10px;
+  --padding-block-body: 6.25rem;
+  --padding-block-header: 7.5rem;
+  --padding-card-title: 0.28em 0.56em;
   --padding-card: 25px;
   --padding-button: 12.5px 37px;
   --padding-more-button: 1.07em 1.43em;
@@ -53,7 +53,7 @@
   :root {
     --inline-size-more-button-icon: 1.5em;
 
-    --padding-block-header: 128px;
+    --padding-block-header: 8rem;
     --padding-dialog: 30px;
   }
 }
