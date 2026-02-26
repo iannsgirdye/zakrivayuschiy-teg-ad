@@ -9,8 +9,8 @@
 
   --padding-block-body: 100px;
   --padding-block-header: 120px;
-  --padding-section-title: 5px 10px;
-  --padding-section: 25px;
+  --padding-card-title: 5px 10px;
+  --padding-card: 25px;
   --padding-button: 12.5px 37px;
   --padding-more-button: 1.07em 1.43em;
   --padding-dialog: 30px 40px;
@@ -18,9 +18,9 @@
   --gap-body: 100px;
   --gap-header-text: 20px;
   --gap-main: 50px;
-  --gap-section: 25px;
-  --gap-section-text: 27px; 
-  --gap-section-buttons: 12px;
+  --gap-card: 25px;
+  --gap-card-text: 27px; 
+  --gap-card-buttons: 12px;
   --gap-more-button: 0.57em;
   --gap-dialog: 30px;
   --gap-dialog-content: 20px;
@@ -33,7 +33,7 @@
   --font-size-label: 0.875rem;
   --font-size-header-title-main: clamp(3.0625rem, 2.71rem + 1.50vw, 4.0625rem);
   --font-size-header-title-description: clamp(0.875rem, 0.68rem + 0.85vw, 1.4375rem);
-  --font-size-section-title: 1.125rem;
+  --font-size-card-title: 1.125rem;
 
   --border-width: 2px;
   --border: var(--border-width) solid var(--color-black);

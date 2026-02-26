@@ -1,18 +1,18 @@
-.sprint {
+.card {
   display: flex;
   flex-direction: column;
 }
 
-.sprint__title {
-  padding: var(--padding-section-title);
-  font-size: var(--font-size-section-title);
+.card__title {
+  padding: var(--padding-card-title);
+  font-size: var(--font-size-card-title);
 }
 
-.sprint__image-container {
+.card__image-container {
   position: relative;
 }
 
-.sprint__image-label {
+.card__image-label {
   position: absolute;
   top: 25px;
   right: 13px;
@@ -30,26 +30,26 @@
     -1px -1px 0 var(--color-white);
 }
 
-.sprint__image {
+.card__image {
   border-block: var(--border);
   inline-size: 100%;
 }
 
-.sprint__container {
-  padding: var(--padding-section);
+.card__container {
+  padding: var(--padding-card);
   display: flex;
   flex-direction: column;
   align-items: end;
-  gap: var(--gap-section);
+  gap: var(--gap-card);
 }
 
-.sprint__description {
+.card__description {
   display: flex;
   flex-direction: column;
-  gap: var(--gap-section-text);
+  gap: var(--gap-card-text);
 }
 
-.sprint__buttons {
+.card__buttons {
   display: flex;
-  gap: var(--gap-section-buttons);
+  gap: var(--gap-card-buttons);
 }
