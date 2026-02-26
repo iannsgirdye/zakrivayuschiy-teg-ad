@@ -3,6 +3,8 @@
   padding: var(--padding-button);
   background-color: var(--color-white);
   border: var(--border);
+  font-family: var(--font-family-accent);
+  font-size: var(--font-size-accent);
   transition: box-shadow 0.3s ease;
   overflow: hidden;
 }
@@ -33,8 +35,6 @@
 .button__icon {
   position: inherit;
   z-index: 1;
-  font-family: var(--font-family-accent);
-  font-size: var(--font-size-accent);
   color: var(--color-white);
   fill: currentColor;
   mix-blend-mode: difference;
