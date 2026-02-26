@@ -29,3 +29,13 @@
   flex-direction: column;
   gap: var(--gap-main);
 }
+
+@media (width >= 1024px) {
+  .page {
+    align-items: center;
+  }
+
+  .container {
+    inline-size: 48.6%;
+  }
+}
