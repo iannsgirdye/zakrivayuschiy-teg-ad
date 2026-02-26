@@ -31,7 +31,8 @@
 }
 
 .sprint__image {
-  margin-inline: calc(-1 * var(--border-width));
+  border-block: var(--border);
+  inline-size: 100%;
 }
 
 .sprint__container {
