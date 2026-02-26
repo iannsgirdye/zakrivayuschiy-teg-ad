@@ -3,13 +3,13 @@
   border: var(--border);
 }
 
-.button:not(.button--icon) {
+.button:not(.like-icon) {
   padding: var(--padding-button);
   font-family: var(--font-family-accent);
   font-size: var(--font-size-button);
 }
 
-.button--icon {
+.like-icon {
   border: none;
 }
 
