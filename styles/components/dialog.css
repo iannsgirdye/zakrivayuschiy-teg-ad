@@ -4,7 +4,7 @@
   flex-direction: column;
   gap: var(--gap-dialog);
   font-family: var(--font-family-accent);
-  font-size: 14px;
+  font-size: var(--font-size-accent);
   text-transform: uppercase;
 }
 

@@ -28,12 +28,10 @@
   --font-family: 'Inter Variable';
   --font-family-accent: 'Press Start 2P';
 
-  --font-size-body: 1.125rem;
-  --font-size-button: 0.875rem;
-  --font-size-label: 0.875rem;
+  --font-size: 1.125rem;
+  --font-size-accent: 0.875rem;
   --font-size-header-title-main: clamp(3.0625rem, 2.71rem + 1.50vw, 4.0625rem);
   --font-size-header-title-description: clamp(0.875rem, 0.68rem + 0.85vw, 1.4375rem);
-  --font-size-card-title: 1.125rem;
 
   --border-width: 2px;
   --border: var(--border-width) solid var(--color-black);
