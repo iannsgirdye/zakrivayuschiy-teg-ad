@@ -12,7 +12,8 @@
   border: none;
 }
 
-.more-button {
+.more-button.button {
+  margin: 0 auto;
   padding: var(--padding-more-button);
   display: flex;
   flex-direction: column;
@@ -23,4 +24,10 @@
 .more-button__icon {
   inline-size: 2em;
   aspect-ratio: 1 / 1;
+}
+
+@media (width >= 1440px) {
+  .more-button.button {
+    flex-direction: row;
+  }
 }
