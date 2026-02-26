@@ -4,6 +4,15 @@
   border: var(--border);
   font-family: var(--font-family-accent);
   font-size: var(--font-size-accent);
+  transition: box-shadow 0.3s ease;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  box-shadow: 2px 2px var(--color-black);
 }
 
 .card__icon-button {
