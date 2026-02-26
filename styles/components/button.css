@@ -7,3 +7,7 @@
   font-family: var(--font-family-accent);
   font-size: var(--font-size-button);
 }
+
+.button--icon {
+  border: none;
+}
