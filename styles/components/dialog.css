@@ -22,6 +22,7 @@
 .dialog__icon {
   inline-size: var(--inline-size-dialog-icon);
   aspect-ratio: 1 / 1;
+  fill: var(--color-black);
 }
 
 .page:has(dialog[open]) {
