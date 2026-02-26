@@ -39,6 +39,16 @@
   --border: var(--border-width) solid var(--color-black);
 }
 
+@media (width < 375px) {
+  :root {
+    --padding-block-header: 6.25rem;
+
+    --gap-header-text: 1rem;
+
+    --font-size-header-title-main: 2.5rem;
+  }
+}
+
 @media (width >= 1024px) {
   :root {
     --inline-size-more-button-icon: 1.5em;
