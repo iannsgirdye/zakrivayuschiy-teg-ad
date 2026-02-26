@@ -4,6 +4,8 @@
   --color-white: #fff;
   --color-black: #000;
 
+  --inline-size-more-button-icon: 2em;
+
   --padding-block-body: 100px;
   --padding-block-header: 120px;
   --padding-section-title: 5px 10px;
@@ -34,6 +36,8 @@
 
 @media (width >= 1440px) {
   :root {
+    --inline-size-more-button-icon: 1.5em;
+
     --padding-block-header: 128px;
   }
 }

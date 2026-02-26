@@ -22,7 +22,7 @@
 }
 
 .more-button__icon {
-  inline-size: 2em;
+  inline-size: var(--inline-size-more-button-icon);
   aspect-ratio: 1 / 1;
 }
 
