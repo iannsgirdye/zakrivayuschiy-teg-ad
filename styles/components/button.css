@@ -48,7 +48,7 @@
   background-color: transparent;
 }
 
-.more-button.button {
+.footer .button {
   margin: 0 auto;
   padding: var(--padding-more-button);
   display: flex;
@@ -57,13 +57,13 @@
   gap: var(--gap-more-button);
 }
 
-.more-button__icon {
+.footer .button__icon {
   inline-size: var(--inline-size-more-button-icon);
   aspect-ratio: 1 / 1;
 }
 
 @media (width >= 1024px) {
-  .more-button.button {
+  .footer .button {
     flex-direction: row;
   }
 }
