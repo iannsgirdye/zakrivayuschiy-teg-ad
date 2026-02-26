@@ -36,6 +36,7 @@
   --font-size-section-title: 1.125rem;
 
   --border-width: 2px;
+  --border: var(--border-width) solid var(--color-black);
 }
 
 @media (width >= 1440px) {

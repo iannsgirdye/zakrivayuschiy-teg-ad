@@ -1,5 +1,6 @@
 .button {
-  background-color: transparent;
+  background-color: var(--color-white);
+  border: var(--border);
 }
 
 .button:not(.button--icon) {

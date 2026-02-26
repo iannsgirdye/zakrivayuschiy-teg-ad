@@ -1,4 +1,4 @@
 .block {
-  border: var(--border-width) solid var(--color-black);
+  border: var(--border);
   background-color: var(--color-white);
 }
