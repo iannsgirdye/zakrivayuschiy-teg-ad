@@ -396,13 +396,17 @@
           onclick="window['dialog'].showModal();"
           aria-controls="dialog"
         >
-          <img class="more-button__icon" src="./svg/floppy.svg" alt="Дискет"/>
+          <svg class="more-button__icon" alt="Дискет">
+            <use href="/svg/floppy.svg#floppy-icon"></use>
+          </svg>
           <span class="button__text">Сохранить на память</span>
         </button>
       </footer>
       <dialog class="dialog block" id="dialog">
         <div class="dialog__content">
-          <img class="dialog__icon" src="./svg/floppy.svg" alt="Дискет"/>
+          <svg class="dialog__icon" alt="Дискет">
+            <use href="/svg/floppy.svg#floppy-icon"></use>
+          </svg>
           <span class="dialog__text">Вставьте дискету, чтобы продолжить</span>
         </div>
         <button
