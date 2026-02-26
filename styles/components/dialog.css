@@ -1,0 +1,29 @@
+.dialog[open] {
+  padding: var(--padding-dialog);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-dialog);
+  font-family: var(--font-family-accent);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.dialog::backdrop {
+  background-color: var(--color-black);
+  opacity: 0.75;
+}
+
+.dialog__content {
+  display: flex;
+  gap: var(--gap-dialog-content);
+  align-items: center;
+}
+
+.dialog__icon {
+  inline-size: var(--inline-size-dialog-icon);
+  aspect-ratio: 1 / 1;
+}
+
+.page:has(dialog[open]) {
+  overflow-y: hidden;
+}

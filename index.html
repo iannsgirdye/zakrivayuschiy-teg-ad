@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./styles/components/button.css"/>
     <link rel="stylesheet" href="./styles/components/header.css"/>
     <link rel="stylesheet" href="./styles/components/sprint.css"/>
+    <link rel="stylesheet" href="./styles/components/dialog.css"/>
   </head>
   <body class="page">
     <header class="header block container">
@@ -260,11 +261,28 @@
         </div>
       </section>
       <footer class="footer">
-        <button class="more-button button">
+        <button
+          class="more-button button"
+          onclick="window['dialog'].showModal();"
+          aria-controls="dialog"
+        >
           <img class="more-button__icon" src="./svg/floppy.svg" alt="Дискет"/>
           Сохранить на память
         </button>
       </footer>
+      <dialog class="dialog block" id="dialog">
+        <div class="dialog__content">
+          <img class="dialog__icon" src="./svg/floppy.svg" alt="Дискет"/>
+          <span class="dialog__text">Вставьте дискету, чтобы продолжить</span>
+        </div>
+        <button
+          class="dialog__button button block"
+          type="button"
+          onclick="window['dialog'].close();"
+        >
+          ОК
+        </button>
+      </dialog>
     </main>
     <script src="./scripts/like.js"></script>
   </body>
