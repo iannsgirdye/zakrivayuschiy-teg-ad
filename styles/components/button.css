@@ -46,6 +46,24 @@
   background-color: transparent;
 }
 
+.card__icon-button:focus {
+  outline: none;
+}
+
+.card__icon-button:focus-visible {
+  border: var(--border);
+}
+
+.card__icon-button:hover .like-icon .core,
+.card__icon-button:hover .like-icon .main-body {
+  fill: var(--color-black);
+}
+
+.card__icon-button .like-icon.is-liked .core,
+.card__icon-button .like-icon.is-liked .main-body {
+  fill: var(--color-red);
+}
+
 .footer .button {
   margin: 0 auto;
   padding: var(--padding-more-button);
