@@ -1,10 +1,10 @@
 .button {
+  position: relative;
   padding: var(--padding-button);
   background-color: var(--color-white);
   border: var(--border);
-  font-family: var(--font-family-accent);
-  font-size: var(--font-size-accent);
   transition: box-shadow 0.3s ease;
+  overflow: hidden;
 }
 
 .button:focus {
@@ -13,6 +13,33 @@
 
 .button:focus-visible {
   box-shadow: 2px 2px var(--color-black);
+}
+
+.button::after {
+  position: absolute;
+  inset: 0;
+  content: '';
+  display: block;
+  transform: translateX(-100%);
+  background-color: var(--color-black);
+  transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+  color: var(--color-white);
+}
+
+.button:hover::after {
+  transform: translateX(0);
+}
+
+.button__text {
+  position: inherit;
+  z-index: 1;
+  font-family: var(--font-family-accent);
+  font-size: var(--font-size-accent);
+  color: var(--color-white);
+  mix-blend-mode: difference;
 }
 
 .card__icon-button {
