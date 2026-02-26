@@ -6,7 +6,9 @@
   --color-red: #f00;
 
   --inline-size-more-button-icon: 2em;
-  --inline-size-dialog-icon: 39px;
+  --inline-size-dialog-icon: 2.4375rem;
+
+  --max-inline-size-dialog: 90%;
 
   --padding-block-body: 6.25rem;
   --padding-block-header: 7.5rem;
@@ -34,6 +36,8 @@
   --font-size-header-title-main: clamp(3.0625rem, 2.71rem + 1.50vw, 4.0625rem);
   --font-size-header-title-description: clamp(0.875rem, 0.68rem + 0.85vw, 1.4375rem);
 
+  --line-height-dialog: 1.5;
+
   --border-width: 2px;
   --border: var(--border-width) solid var(--color-black);
 }
@@ -51,6 +55,8 @@
 @media (width >= 1024px) {
   :root {
     --inline-size-more-button-icon: 1.5em;
+
+    --max-inline-size-dialog: 20rem;
 
     --padding-block-header: 8rem;
     --padding-dialog: 30px;
