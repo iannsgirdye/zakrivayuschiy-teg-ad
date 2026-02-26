@@ -29,3 +29,9 @@
 
   --border-width: 2px;
 }
+
+@media (width >= 1440px) {
+  :root {
+    --padding-block-header: 128px;
+  }
+}
