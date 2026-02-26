@@ -1,17 +1,15 @@
 .button {
+  padding: var(--padding-button);
   background-color: var(--color-white);
   border: var(--border);
   font-family: var(--font-family-accent);
   font-size: var(--font-size-accent);
 }
 
-.button {
-  padding: var(--padding-button);
-}
-
 .card__icon-button {
   padding: 0;
   border: none;
+  background-color: transparent;
 }
 
 .more-button.button {
