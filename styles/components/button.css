@@ -27,7 +27,7 @@
   aspect-ratio: 1 / 1;
 }
 
-@media (width >= 1440px) {
+@media (width >= 1024px) {
   .more-button.button {
     flex-direction: row;
   }

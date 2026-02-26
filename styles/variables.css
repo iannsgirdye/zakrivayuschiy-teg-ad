@@ -39,7 +39,7 @@
   --border: var(--border-width) solid var(--color-black);
 }
 
-@media (width >= 1440px) {
+@media (width >= 1024px) {
   :root {
     --inline-size-more-button-icon: 1.5em;
 
